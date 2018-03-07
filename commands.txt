@@ -1,0 +1,28 @@
+                      mkdir lab1
+                      cd lab1
+                      git init
+                      git add l1.txt
+                      git commit -m "Initial commit"
+                      git addl1.txt
+                      git commit -a -m "modify l1.txt"
+                      git remote add origin https://github.com/Manchov/lab1.git
+                      git push -u origin master
+                      git clone https://github.com/Manchov/lab1.git
+                      git branch logging
+                      git checkout logging
+                      git add log.txt
+                      git commit -m "created log.txt"
+                      git push -u origin logging
+                      git checkout master
+                      git merge logging
+                      git pull origin master
+                      git branch allcomands
+                      git checkout allcomands
+                      git add commands.txt
+                      git commit -m "created commands.txt"
+                      git push -u origin allcomands
+                      git checkout master
+                      git merge allcomands
+                      git pull origin master
+                      
+                      
